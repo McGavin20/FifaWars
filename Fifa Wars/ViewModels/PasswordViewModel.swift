@@ -15,7 +15,7 @@ import SwiftUI
 
 class PasswordViewModel: ObservableObject {
     @Binding var emails: [String]
-    @Published var email: String = ""
+    @State private var email: String
     @Published var showingPasswordScreen: Bool = false
     @Published var alertMessage: String = ""
     @Published var denyMessage: String = ""
@@ -23,30 +23,30 @@ class PasswordViewModel: ObservableObject {
     
     
     
-    init(email: String, showingPasswordScreen: Bool, alertMessage: String, denyMessage: String, showAlert: Bool) {
-        self.email = email
-        self.showingPasswordScreen = showingPasswordScreen
-        self.alertMessage = alertMessage
-        self.denyMessage = denyMessage
-        self.showAlert = showAlert
-    }
-    
-    init() {
-        self.email = ""
-    }
-    
+//    init(email: String, showingPasswordScreen: Bool, alertMessage: String, denyMessage: String, showAlert: Bool) {
+//        self.email = email
+//        self.showingPasswordScreen = showingPasswordScreen
+//        self.alertMessage = alertMessage
+//        self.denyMessage = denyMessage
+//        self.showAlert = showAlert
+//    }
+//
+//    init() {
+//        self.email = ""
+//    }
+//
     func authenticateEmail(email: String) {
         //@StateObject var register = RegisterViewModel()
         @Binding var emails: [String]
 
-        if self.email {
+        
+        if $emails.contains(where: $email) {
             showAlert.toggle()
             alertMessage = "Username exists"
         } else {
             print("Email is not in database.")
         }
     }
-    
-    
 }
+
     

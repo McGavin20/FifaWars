@@ -11,38 +11,42 @@ struct Register: View {
     @ObservedObject var register: RegisterViewModel = RegisterViewModel()
     
     var body: some View {
-        VStack {
-            Text("Register Your Account:")
-                .font(.title)
-                .foregroundColor(.accentColor)
-                .bold()
-            Form {
-                TextField("First Name:", text: $register.fname)
-                TextField("Last Name:", text: $register.lname)
-                TextField("Prefered Username:", text: $register.username)
-               
-                TextField("Email:", text: $register.email)
-                
-                SecureField("Password:", text: $register.password)
-                
-                SecureField("Re-enter Password:", text: $register.password)
+        ZStack {
+            Color.black
+            VStack {
+                Text("Register Your Account:")
+                    .font(.title)
+                    .foregroundColor(.accentColor)
+                    .bold()
+                Form {
+                    TextField("First Name:", text: $register.fname)
+                    TextField("Last Name:", text: $register.lname)
+                    TextField("Prefered Username:", text: $register.username)
+                   
+                    TextField("Email:", text: $register.email)
+                    
+                    SecureField("Password:", text: $register.password)
+                    
+                    SecureField("Re-enter Password:", text: $register.password)
 
-            }
-            Button(action: {
-                register.autheticateUsername(username: register.username)
-            }) {
-                Text("Sign Up")
-                    .frame(width: 200)
-                    .background(Color.green)
-                    .cornerRadius(8)
-                    .font(.title2)
-                    .foregroundColor(.black)
-            }
-            .padding()
-            .alert($register.alertMessage.wrappedValue, isPresented: $register.showAlert){
-                Button("OK", role: .cancel) { }
+                }
+                Button(action: {
+                    register.autheticateUsername(username: register.username)
+                }) {
+                    Text("Sign Up")
+                        .frame(width: 200)
+                        .background(Color.green)
+                        .cornerRadius(8)
+                        .font(.title2)
+                        .foregroundColor(.black)
+                }
+                .padding()
+                .alert($register.alertMessage.wrappedValue, isPresented: $register.showAlert){
+                    Button("OK", role: .cancel) { }
+                }
             }
         }
+        .ignoresSafeArea()
     }
 }
 
