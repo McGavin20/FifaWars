@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>469038713221-ch70r89lgtiuntk99g3ok5lsrt3o67do.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.469038713221-ch70r89lgtiuntk99g3ok5lsrt3o67do</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQlI0AvcN9b3Db9b7sTzpM00igz48lccg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>469038713221</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Sharma-McGavin.Fifa-Wars</string>
+	<key>PROJECT_ID</key>
+	<string>fifawars-20</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fifawars-20.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:469038713221:ios:be7b5b68a4759dea505cec</string>
+</dict>
+</plist>

@@ -14,11 +14,10 @@
 		2F3B7DEB2977F9820019B6E8 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DEA2977F9820019B6E8 /* SignInViewModel.swift */; };
 		2F3B7DEF297805C30019B6E8 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DEE297805C30019B6E8 /* TableView.swift */; };
 		2F3B7DF129781C320019B6E8 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DF029781C320019B6E8 /* TableModel.swift */; };
-		2F3B7DF3297AA5CA0019B6E8 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DF2297AA5CA0019B6E8 /* Register.swift */; };
 		2F3B7DF5297AA92F0019B6E8 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DF4297AA92F0019B6E8 /* RegisterViewModel.swift */; };
 		2F3B7DF7297ADF720019B6E8 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DF6297ADF720019B6E8 /* RegisterModel.swift */; };
-		2F3B7DFB297E99F00019B6E8 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DFA297E99F00019B6E8 /* PasswordResetView.swift */; };
-		2F3B7DFF297E9D590019B6E8 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7DFE297E9D590019B6E8 /* PasswordViewModel.swift */; };
+		70B63744B80942916E4B0CAA /* Pods_Fifa_Wars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F06B6FB4F6EDE3186696D77 /* Pods_Fifa_Wars.framework */; };
+		BA6F5AE729840EE9001443E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA6F5AE629840EE8001443E1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +29,12 @@
 		2F3B7DEA2977F9820019B6E8 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		2F3B7DEE297805C30019B6E8 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		2F3B7DF029781C320019B6E8 /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
-		2F3B7DF2297AA5CA0019B6E8 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		2F3B7DF4297AA92F0019B6E8 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		2F3B7DF6297ADF720019B6E8 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
-		2F3B7DFA297E99F00019B6E8 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
-		2F3B7DFE297E9D590019B6E8 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
+		6F06B6FB4F6EDE3186696D77 /* Pods_Fifa_Wars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fifa_Wars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEB87F548ABF87B79B71ED3 /* Pods-Fifa Wars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fifa Wars.debug.xcconfig"; path = "Target Support Files/Pods-Fifa Wars/Pods-Fifa Wars.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6F5AE629840EE8001443E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD91049CCAE030E7136C53E3 /* Pods-Fifa Wars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fifa Wars.release.xcconfig"; path = "Target Support Files/Pods-Fifa Wars/Pods-Fifa Wars.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B63744B80942916E4B0CAA /* Pods_Fifa_Wars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +54,8 @@
 			children = (
 				2F3B7DD52976A8080019B6E8 /* Fifa Wars */,
 				2F3B7DD42976A8080019B6E8 /* Products */,
+				30B7BAB23D04853869997F5C /* Pods */,
+				78B2F79CDA6349CBD7EBA954 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +75,7 @@
 				2F3B7DE42976A82E0019B6E8 /* Views */,
 				2F3B7DD62976A8080019B6E8 /* Fifa_WarsApp.swift */,
 				2F3B7DD82976A8080019B6E8 /* ContentView.swift */,
+				BA6F5AE629840EE8001443E1 /* GoogleService-Info.plist */,
 				2F3B7DDA2976A80C0019B6E8 /* Assets.xcassets */,
 				2F3B7DDC2976A80C0019B6E8 /* Preview Content */,
 			);
@@ -90,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				2F3B7DEE297805C30019B6E8 /* TableView.swift */,
-				2F3B7DF2297AA5CA0019B6E8 /* Register.swift */,
-				2F3B7DFA297E99F00019B6E8 /* PasswordResetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,9 +112,25 @@
 			children = (
 				2F3B7DEA2977F9820019B6E8 /* SignInViewModel.swift */,
 				2F3B7DF4297AA92F0019B6E8 /* RegisterViewModel.swift */,
-				2F3B7DFE297E9D590019B6E8 /* PasswordViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30B7BAB23D04853869997F5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EEB87F548ABF87B79B71ED3 /* Pods-Fifa Wars.debug.xcconfig */,
+				DD91049CCAE030E7136C53E3 /* Pods-Fifa Wars.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78B2F79CDA6349CBD7EBA954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F06B6FB4F6EDE3186696D77 /* Pods_Fifa_Wars.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F3B7DE12976A80C0019B6E8 /* Build configuration list for PBXNativeTarget "Fifa Wars" */;
 			buildPhases = (
+				446A2CC878ADA089354D6140 /* [CP] Check Pods Manifest.lock */,
 				2F3B7DCF2976A8080019B6E8 /* Sources */,
 				2F3B7DD02976A8080019B6E8 /* Frameworks */,
 				2F3B7DD12976A8080019B6E8 /* Resources */,
+				FEAF64AFD0BB1DE57B9C3563 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,26 +195,66 @@
 			files = (
 				2F3B7DDE2976A80C0019B6E8 /* Preview Assets.xcassets in Resources */,
 				2F3B7DDB2976A80C0019B6E8 /* Assets.xcassets in Resources */,
+				BA6F5AE729840EE9001443E1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		446A2CC878ADA089354D6140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fifa Wars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAF64AFD0BB1DE57B9C3563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fifa Wars/Pods-Fifa Wars-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fifa Wars/Pods-Fifa Wars-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fifa Wars/Pods-Fifa Wars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F3B7DCF2976A8080019B6E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3B7DF3297AA5CA0019B6E8 /* Register.swift in Sources */,
 				2F3B7DD92976A8080019B6E8 /* ContentView.swift in Sources */,
 				2F3B7DF5297AA92F0019B6E8 /* RegisterViewModel.swift in Sources */,
 				2F3B7DEF297805C30019B6E8 /* TableView.swift in Sources */,
 				2F3B7DF7297ADF720019B6E8 /* RegisterModel.swift in Sources */,
 				2F3B7DEB2977F9820019B6E8 /* SignInViewModel.swift in Sources */,
-				2F3B7DFB297E99F00019B6E8 /* PasswordResetView.swift in Sources */,
 				2F3B7DD72976A8080019B6E8 /* Fifa_WarsApp.swift in Sources */,
 				2F3B7DF129781C320019B6E8 /* TableModel.swift in Sources */,
-				2F3B7DFF297E9D590019B6E8 /* PasswordViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +377,7 @@
 		};
 		2F3B7DE22976A80C0019B6E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EEB87F548ABF87B79B71ED3 /* Pods-Fifa Wars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Maroon;
@@ -346,6 +407,7 @@
 		};
 		2F3B7DE32976A80C0019B6E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD91049CCAE030E7136C53E3 /* Pods-Fifa Wars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Maroon;
