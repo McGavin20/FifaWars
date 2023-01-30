@@ -127,7 +127,7 @@ struct SignInView: View {
                     .border(.red, width: CGFloat(login.wrongPassword))
                 Button("Sign In") {
                     //Authentication
-                    guard !email?.isEmpty, !password.isEmpty else {
+                    guard !email.isEmpty, !password.isEmpty else {
                         return
                     }
                     viewModel.autheticateUser(username: email, password: password)
