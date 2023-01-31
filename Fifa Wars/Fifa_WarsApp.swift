@@ -15,7 +15,6 @@ struct Fifa_WarsApp: App {
         
         WindowGroup {
             let viewModel = AppViewModel()
-            
             ContentView()
                 .environmentObject(viewModel)
         }

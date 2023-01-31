@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 import FirebaseAuth
 
 class AppViewModel: ObservableObject {
@@ -91,8 +90,8 @@ struct SignInView: View {
     
     var body: some View {
         
-        var email: String = ""
-        var password: String = ""
+        let email: String = ""
+        let password: String = ""
         
         ZStack{
             Color.green
@@ -172,8 +171,11 @@ struct Register: View {
                     .bold()
                 Form {
                     TextField("First Name:", text: $register.fname)
+                        .disableAutocorrection(true)
                     TextField("Last Name:", text: $register.lname)
+                        .disableAutocorrection(true)
                     TextField("Prefered Username:", text: $register.username)
+                        .disableAutocorrection(true)
                     
                     TextField("Email:", text: $register.email)
                         .autocapitalization(.none)
@@ -199,6 +201,7 @@ struct Register: View {
                 }
                 .padding()
             }
+            .padding()
             .navigationTitle("Create Account")
         }
         .ignoresSafeArea()
